@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="CurrentEnableScores">当前可用金额</string>
+    <string name="IsDelete">撤单标识</string>
+    <string name="IsDeletestr">撤单</string>
+    <string name="IssueNo">期号</string>
+    <string name="LOADING">Loading...</string>
+    <string name="LotteryName">彩种名称</string>
+    <string name="Memo">明细说明</string>
+    <string name="PlayName">玩法名称</string>
+    <string name="ProfitLossMoney">变动金额</string>
+    <string name="ProfitLossTime">明细时间</string>
+    <string name="ProfitLossType">明细类型</string>
+    <string name="RecordId">订单号</string>
+    <string name="RecordModel">模式</string>
+    <string name="RecordMoney">投注金额</string>
+    <string name="RecordMul">投注倍数</string>
+    <string name="RecordPro">状态</string>
+    <string name="RecordTime">时间</string>
+    <string name="Status">状态</string>
+    <string name="UserID">用户名</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="aboutAlipayBao">2.关于支付宝和财付通充值限额</string>
+    <string name="aboutAlipayBaoshow">支付宝或者财付通充值单笔最大500元，每天每人最多500元</string>
+    <string name="aboutCrossBank">3.关于跨行充值</string>
+    <string name="aboutCrossBankshow">支持任意银行跨行实时汇款至建行，汇款前，在“个人中心-修改资料”绑定自己汇款的卡号，汇款后资金会自动加到游戏账户上！ 注意：建行在22点-24点之间是内部结算时间，网银查询不到明细，请客户不要在这个时间段使用“跨行充值”！</string>
+    <string name="about_us">关于我们</string>
+    <string name="aboutboyueshow">"简介:
+博悦娱乐是一家有着境外实体产业支撑的在线娱乐平台，公司涉足酒店、旅游以及线上娱乐等业务。公司在行业内深耕多年，积累了足够的行业经验和服务理念，在加强线下服务的同时，公司也在不断的拓展线上产业，为客户提供多元化的服务与享受。博悦是业内首家真正境外娱乐平台，不仅仅体现在办公境外化上，公司的法人也为境外人士，且平台也真正以公司化操作运营，并在哥斯达黎加取得了合法营业执照，为平台的长久发展提供了保证。 我们的游戏，是依官方数据产生的游戏结果，让玩家在活泼的投注界面，享受最公正的娱乐。博悦娱乐平台是博悦技术团队历经三年时间所开发出的一套线上娱乐系统，这套系统力求做到会员操作简单快捷，游戏界面清晰流畅！博悦娱乐志在打造亚洲在线娱乐第一品牌，为亚洲娱乐爱好者提供最优惠的赔率和最优质的服务！"</string>
+    <string name="aboutpattern">1.关于元角分模式</string>
+    <string name="aboutpatternshow">0.01倍为分模式，0.1倍为角模式，1倍为元模式</string>
+    <string name="account_add">添加下级</string>
+    <string name="account_add_bankcard">绑定银行卡</string>
+    <string name="account_changemoneypassword">修改资金密码</string>
+    <string name="account_changepassword">修改密码</string>
+    <string name="account_str">我的账号</string>
+    <string name="account_table">个人报表</string>
+    <string name="account_touzhuhistory">投注记录</string>
+    <string name="account_yingkuihistory">盈亏记录</string>
+    <string name="action_settings">Settings</string>
+    <string name="addmembercontent">"提示:
+1.添加下级,返点最大可以等于自身的返点，最小为0.
+2.下级账户名6-16个字符组成,且必须由0-9,a-z,A-Z 组成.
+3.用户昵称2-8个字符组成.
+4.登陆密码由6-16个字符,字母和数字组成;且必须包含数字和字母,不允许连续三位相同.
+5.开户奖金1952以上将自动消耗相应配额."</string>
+    <string name="app_name">天游助手</string>
+    <string name="app_version">软件版本</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="band_cardnamestr">持卡人姓名</string>
+    <string name="band_cards">绑定银行卡</string>
+    <string name="band_cardstr">银行卡号</string>
+    <string name="band_cardsubmit">提交</string>
+    <string name="band_drawmoneypwdstr">资金密码</string>
+    <string name="bei">倍</string>
+    <string name="boyuekeji">博悦科技</string>
+    <string name="changelognpasswordcontent">"提示:
+1.登陆密码由字母和数字组成6-16个字符.
+2.必须包含数字和字母.
+3.不允许连续三位相同.
+4.不能和资金密码相同"</string>
+    <string name="changezjpasswordcontent">"提示:
+1.资金密码由字母和数字组成6-16个字符.
+2.必须包含数字和字母.
+3.不允许连续三位相同.
+4.不能和登陆密码相同"</string>
+    <string name="chongzhi">充值</string>
+    <string name="clickUrltip">点击该链接访问</string>
+    <string name="cq_ssc">重庆时时彩</string>
+    <string name="danwei_yuan">元</string>
+    <string name="danwei_zhu">注</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_default_title">"Here's a message!"</string>
+    <string name="dialog_ok">OK</string>
+    <string name="help_us">帮助中心</string>
+    <string name="history_toast">温馨提示:尊敬的用户，该记录只显示两天内的数据！</string>
+    <string name="historyloading">正在加载数据，请稍后....</string>
+    <string name="home_str">购彩大厅</string>
+    <string name="jx_ssc">江西时时彩</string>
+    <string name="loading">正在加载数据....</string>
+    <string name="login">登 录</string>
+    <string name="more_about">关于博悦</string>
+    <string name="more_dinagin">发送最近错误日志</string>
+    <string name="more_help">帮助中心</string>
+    <string name="more_manger">在线客服</string>
+    <string name="more_str">更多</string>
+    <string name="more_tuichu">安 全 退 出</string>
+    <string name="more_version">版本检测</string>
+    <string name="more_version_auto">自动检测版本</string>
+    <string name="news_str">开奖公告</string>
+    <string name="onlineclientaddress">在线客服地址</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_pull_label">Pull to refresh…</string>
+    <string name="pull_to_refresh_refreshing_label">Loading…</string>
+    <string name="pull_to_refresh_release_label">Release to refresh…</string>
+    <string name="ranking_str">充值提现</string>
+    <string name="sendmessage_us">我要反馈</string>
+    <string name="showband_addcardstr">添加银行卡</string>
+    <string name="shuoming1">至少选择1个</string>
+    <string name="shuoming2">至少选择2个</string>
+    <string name="shuoming3">至少选择3个</string>
+    <string name="shuoming4">至少选择4个</string>
+    <string name="shuoming5">至少选择5个</string>
+    <string name="shuoming6">至少选择6个</string>
+    <string name="shuoming7">至少选择7个</string>
+    <string name="shuoming8">至少选择8个</string>
+    <string name="ssc_3xzhixuan_hds_inputTip">请在下方的输入框内输入或粘贴投注内容，每注请使用逗号或空格分割开</string>
+    <string name="ssc_bai">百</string>
+    <string name="ssc_baiwei">百位</string>
+    <string name="ssc_defulut">\?</string>
+    <string name="ssc_ge">个</string>
+    <string name="ssc_gewei">个位</string>
+    <string name="ssc_qian">千</string>
+    <string name="ssc_qianwei">千位</string>
+    <string name="ssc_shi">十</string>
+    <string name="ssc_shiwei">十位</string>
+    <string name="ssc_wan">万</string>
+    <string name="ssc_wanwei">万位</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="system_taost">系统提示</string>
+    <string name="team_table">团队报表</string>
+    <string name="testcontent">重庆众讯科技开发手机...重庆众讯科技开发手机APP,安卓、ios 地址: 重庆-渝中-上清寺 太平洋广场B座15-6 联系我时,请.</string>
+    <string name="tixian">提现</string>
+    <string name="touch_end_loading">松开加载数据</string>
+    <string name="touch_start_loading">下拉加载数据</string>
+    <string name="typename">玩法类型</string>
+    <string name="xj_ssc">新疆时时彩</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
