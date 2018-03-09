@@ -6,63 +6,56 @@ import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 
+import com.gzmantis.tyassistant.R;
+
 /**
  * Created by LONG on 2018/3/6.
  */
 
-public class ShapeLoadingDialog
-{
+public class ShapeLoadingDialog {
     private Context mContext;
     private Dialog mDialog;
     private View mDialogContentView;
     private LoadingView mLoadingView;
 
-    public ShapeLoadingDialog(Context paramContext)
-    {
+    public ShapeLoadingDialog(Context paramContext) {
         this.mContext = paramContext;
         init();
     }
 
-    private DisplayMetrics getDensity(Context paramContext)
-    {
+    private DisplayMetrics getDensity(Context paramContext) {
         return paramContext.getResources().getDisplayMetrics();
     }
 
-    private void init()
-    {
-//        this.mDialog = new Dialog(this.mContext, 2131296375);
-//        this.mDialogContentView = LayoutInflater.from(this.mContext).inflate(2130968646, null);
-//        this.mLoadingView = ((LoadingView)this.mDialogContentView.findViewById(2131624236));
-//        this.mDialog.setContentView(this.mDialogContentView);
+    private void init() {
+        this.mDialog = new Dialog(this.mContext, R.style.AlertDialogStyle);
+        this.mDialogContentView = LayoutInflater.from(this.mContext).inflate(R.layout.layout_dialog_view, null);
+        this.mLoadingView = ((LoadingView)this.mDialogContentView.findViewById(R.id.loadView));
+        this.mDialog.setContentView(this.mDialogContentView);
     }
 
-    public void dismiss()
-    {
+    public void dismiss() {
         this.mDialog.dismiss();
     }
 
-    public Dialog getDialog()
-    {
+    public Dialog getDialog() {
         return this.mDialog;
     }
 
-    public void setBackground(int paramInt)
-    {
+    public void setBackground(int paramInt) {
 //        ((GradientDrawable)this.mDialogContentView.getBackground()).setColor(paramInt);
     }
 
-    public void setCanceledOnTouchOutside(boolean paramBoolean)
-    {
+    public void setCanceledOnTouchOutside(boolean paramBoolean) {
         this.mDialog.setCanceledOnTouchOutside(paramBoolean);
     }
 
-    public void setLoadingText(CharSequence paramCharSequence)
-    {
+    public void setLoadingText(CharSequence paramCharSequence) {
 //        this.mLoadingView.setLoadingText(paramCharSequence);
     }
 
-    public void show()
-    {
+    public void show() {
         this.mDialog.show();
     }
+
 }

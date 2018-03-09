@@ -48,6 +48,16 @@ public class LoginActivity extends BasicActivity {
 
     }
 
+    @Override
+    public int initLayout() {
+        return 0;
+    }
+
+    @Override
+    public int initLayoutTitle() {
+        return 0;
+    }
+
     private void ToMain() {
         this.activityUtil = new ActivityUtil(this);
         if (!this.activityUtil.isExsitMianActivity(MainActivity.class)) {

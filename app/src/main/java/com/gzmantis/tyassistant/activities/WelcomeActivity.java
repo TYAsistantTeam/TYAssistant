@@ -35,6 +35,16 @@ public class WelcomeActivity extends BasicActivity {
     }
 
     @Override
+    public int initLayout() {
+        return 0;
+    }
+
+    @Override
+    public int initLayoutTitle() {
+        return 0;
+    }
+
+    @Override
     public void onClick(View v) {
 
     }
