@@ -1,5 +1,6 @@
 package com.gzmantis.tyassistant.activities;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -17,7 +18,7 @@ import com.gzmantis.tyassistant.utils.ToastUtil;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
 
-public abstract class BasicActivity extends AppCompatActivity implements View.OnClickListener{
+public abstract class BasicActivity extends Activity implements View.OnClickListener{
 
     public ByApiDatas byApiDatas;
     public Gson gson;

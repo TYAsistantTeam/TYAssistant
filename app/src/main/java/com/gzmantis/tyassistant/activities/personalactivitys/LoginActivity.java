@@ -1,6 +1,5 @@
 package com.gzmantis.tyassistant.activities.personalactivitys;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -9,7 +8,10 @@ import android.widget.EditText;
 import com.gzmantis.tyassistant.MainActivity;
 import com.gzmantis.tyassistant.R;
 import com.gzmantis.tyassistant.activities.BasicActivity;
+import com.gzmantis.tyassistant.https.HttpListener;
 import com.gzmantis.tyassistant.utils.ActivityUtil;
+import com.gzmantis.tyassistant.utils.CommentProgressDialog;
+import com.gzmantis.tyassistant.utils.StringUtil;
 
 public class LoginActivity extends BasicActivity {
 
@@ -19,6 +21,11 @@ public class LoginActivity extends BasicActivity {
     private EditText edit_account;
     private EditText edit_kouling;
     private EditText edit_password;
+
+    HttpListener httpListenerwebsate = null;
+
+    private String kouling = "";
+    private String password = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,9 +75,22 @@ public class LoginActivity extends BasicActivity {
     }
 
     @Override
-    public void onClick(View v) {
-        if (v.getId() == this.btn_login.getId()) {
-            ToMain();
+    public void onClick(View paramView) {
+
+        this.account = getStringView(this.edit_account);
+        this.password = getStringView(this.edit_password);
+        this.kouling = getStringView(this.edit_kouling);
+        if (StringUtil.isEmpty(this.account))
+        {
+            showToast("账号不能为空!");
+            return;
         }
+        if (StringUtil.isEmpty(this.password))
+        {
+            showToast("密码不能为空!");
+            return;
+        }
+        CommentProgressDialog.showProgressDialog(this);
+        this.byApiDatas.Login(this.account, this.password,this.kouling,this.httpListenerwebsate);
     }
 }
