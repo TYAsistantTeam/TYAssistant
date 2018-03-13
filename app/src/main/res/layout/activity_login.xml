@@ -1,13 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-              xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:background="@drawable/skin_header_bar_bg" android:layout_width="fill_parent" android:layout_height="50.0dip">
-        <TextView android:textSize="18.0sp" android:textColor="@color/whirte" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="登陆" android:layout_centerInParent="true" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:background="@drawable/skin_header_bar_bg">
+
+        <TextView
+            android:id="@id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="登陆"
+            android:textColor="@color/whirte"
+            android:textSize="18.0sp" />
     </RelativeLayout>
-    <LinearLayout android:orientation="vertical" android:padding="10.0dip" style="@style/MatchAuto">
-        <EditText android:id="@+id/edit_account" android:background="@drawable/editext_bg" android:paddingLeft="8.0dip" android:paddingTop="3.0dip" android:paddingRight="3.0dip" android:paddingBottom="3.0dip" android:layout_marginTop="10.0dip" android:hint="输入账号" style="@style/Match50" />
-        <EditText android:id="@+id/edit_password" android:background="@drawable/editext_bg" android:paddingLeft="8.0dip" android:paddingTop="3.0dip" android:paddingRight="3.0dip" android:paddingBottom="3.0dip" android:layout_marginTop="10.0dip" android:hint="输入密码" android:inputType="textPassword" style="@style/Match50" />
-        <EditText android:id="@+id/edit_kouling" android:background="@drawable/editext_bg" android:paddingLeft="8.0dip" android:paddingTop="3.0dip" android:paddingRight="3.0dip" android:paddingBottom="3.0dip" android:visibility="gone" android:layout_marginTop="10.0dip" android:hint="输入口令" style="@style/Match50" />
-        <Button android:textSize="15.0sp" android:textColor="@color/whirte" android:id="@+id/btn_login" android:background="@drawable/btn_action" android:layout_marginTop="20.0dip" android:text="@string/login" style="@style/Match50" />
+
+    <LinearLayout
+        style="@style/MatchAuto"
+        android:orientation="vertical"
+        android:padding="10.0dip">
+
+        <EditText
+            android:id="@+id/edit_account"
+            style="@style/Match50"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/editext_bg"
+            android:hint="输入账号"
+            android:text="chenlongyun1"
+            android:paddingBottom="3.0dip"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="3.0dip"
+            android:paddingTop="3.0dip" />
+
+        <EditText
+            android:id="@+id/edit_password"
+            style="@style/Match50"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/editext_bg"
+            android:hint="输入密码"
+            android:inputType="textPassword"
+            android:paddingBottom="3.0dip"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="3.0dip"
+            android:paddingTop="3.0dip" />
+
+        <EditText
+            android:id="@+id/edit_kouling"
+            style="@style/Match50"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/editext_bg"
+            android:hint="输入口令"
+            android:paddingBottom="3.0dip"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="3.0dip"
+            android:paddingTop="3.0dip"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_login"
+            style="@style/Match50"
+            android:layout_marginTop="20.0dip"
+            android:background="@drawable/btn_action"
+            android:text="@string/login"
+            android:textColor="@color/whirte"
+            android:textSize="15.0sp" />
     </LinearLayout>
 </LinearLayout>
